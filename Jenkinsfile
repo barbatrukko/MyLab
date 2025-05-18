@@ -26,7 +26,7 @@ pipeline{
         // Stage3 : Publish the source code to Sonarqube
         stage ('Sonarqube Analysis'){
             steps {
-                echo ' Deploy'
+                echo ' Deploy mod'
        //         withSonarQubeEnv('sonarqube'){ // You can override the credential to be used
        //              sh 'mvn sonar:sonar'
        //         }
